@@ -1,4 +1,4 @@
-program Personal_Income_Tax  !个人所得税
+program Personal_Income_Tax  !姹備笉鍚屾敹鍏ョ殑绋庢敹
 implicit none
     real::income(10)=0. , tax(10)=0.
 	read*, income
