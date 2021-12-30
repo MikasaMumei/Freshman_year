@@ -1,4 +1,4 @@
-program Find_series
+program Find_series                !求级数，其中为了精度要求定义了常数error。
 implicit none
     real, parameter:: error = 1E-5
 	integer:: n , i
