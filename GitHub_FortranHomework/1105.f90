@@ -1,4 +1,4 @@
-program Select_Sort                   !一组数的选择排序法。
+program Selection_Sort_1              !基于minloc()的一组数的选择排序法。
 implicit none
     integer,parameter ::i=10          !i为数的数量
     integer :: a(i),m(1)              !定义数组
